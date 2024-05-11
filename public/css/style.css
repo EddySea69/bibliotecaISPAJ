@@ -1,0 +1,90 @@
+
+/* Menu */
+
+.navbar{
+    background-color:#f9f4d1 !important;
+}
+
+.navbar a{
+    font-weight: 500;
+    color: #ebab23 !important;
+}
+
+
+
+
+
+/* Pagina Inicial */
+
+.dashboard{
+  padding-top: 40px;
+}
+
+.dashboard .card{
+  width: 18rem;
+  margin-bottom: 20px;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  transition: transform 0.5s ease;  
+}
+
+.dashboard .card:hover {
+  transform: scale(1.1);
+}
+
+.dashboard .card-body {
+  text-align: center;
+  background-color: rgba(46, 45, 45, 0.438);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.dashboard .number {
+  font-size: 3rem;
+}
+
+
+
+/* Pagina Livros */
+.livros{
+  padding-top: 40px;
+}
+
+.livros table{
+  margin-top: 40px;
+}
+
+.livros .table-wrapper {
+  max-height: 60vh; /* 40% da altura da viewport */
+  overflow-y: auto; /* Adiciona barra de rolagem vertical quando necessário */
+}
+
+.livros .table-wrapper thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff; /* Fundo branco para cobrir o conteúdo enquanto rola */
+  background-color: #ebab23;  
+}
+
+.livros .modal-body input, select{
+  margin-bottom: 20px;
+}
+
+.livros .modal-header{
+  background-color: #ebab23;
+}
+
+
+
+
+/* 
+#f9f4d1
+#f22912
+#ebab23
+#f5d273
+#f48cac 
+*/
+
